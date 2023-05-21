@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@400;500;600;700;800&display=swap');
+
+
+img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+header{
+	padding: 30px 0;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.menu ul{
+	display: flex;
+	list-style: none;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	font-family: 'Martian Mono', monospace;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-right: 40px;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+.mobile-menu{
+	display: none;
+}
+
+.menu-icon{
+	display: none;
+}
+
+
+.body1-content{
+	background-image: url(../images/2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 124vh;
+
+}
+
+
+
+.body1-txt{
+	margin-top: 200px;
+}
+
+.body1-txt h1{
+	color: #e58f00;
+	font-size: 47px;
+	font-weight: 700;
+	font-family: 'Martian Mono', monospace;
+}
+
+.body1-txt p{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	font-family: 'Martian Mono', monospace;
+}
+
+.body1-txt button{
+	color: #000;
+	background: #e58f00;
+	padding: 5px 20px;
+	font-size: 20px;
+	border-radius: 5px;
+	font-weight: 700;
+	font-family: 'Martian Mono', monospace;
+	border: none;
+	margin-top: 30px;
+}
+
+
+.body2{
+	background: #1d1d23;
+	padding: 100px 0;
+}
+
+.body2-txt{
+	padding: 100px 0;
+}
+
+.body2-txt h4{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 800;
+	font-family: 'Martian Mono', monospace;
+}
+
+.body2-txt p{
+	color: #fff;
+	font-size: 23px;
+	font-weight: 400;
+	font-family: 'Martian Mono', monospace;
+	margin-top: 40px;
+}
+
+
+.body3{
+	background: #1d1d23;
+}
+
+.body3-content{
+	background-image: url(../images/4.png);
+	height: 300vh;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.body3-txt{
+	margin-top: 400px;
+}
+
+.body3-txt h4{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 700;
+	font-family: 'Martian Mono', monospace;
+}
+
+.body3-txt p{
+	color: #fff;
+	font-size: 28px;
+	font-weight: 500;
+	font-family: 'Martian Mono', monospace;
+	margin-top: 40px;
+}
+
+
+.body4{
+	background: #1d1d23;
+	padding-bottom: 100px;
+}
+
+
+.body4-title h2{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 700;
+	font-family: 'Martian Mono', monospace;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.img2{
+	margin-top: 20px;
+}
+
+
+.body5{
+	background-image: url(../images/11.png);
+	background-size: contain;
+	height: 140vh;
+	background-repeat: no-repeat;
+}
+
+.body5-txt{
+	border: 10px solid #e58f00;
+	margin-top: 200px;
+	padding: 20px;
+}
+
+.body5-txt{
+	background: #1d1d23;
+}
+
+.body5-txt h5{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 700px;
+	font-family: 'Martian Mono', monospace;
+	text-align: center;
+}
+
+.body5-txt p{
+	color: #fff;
+	font-size: 23px;
+	font-weight: 400px;
+	font-family: 'Martian Mono', monospace;
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+.body6{
+	background: #1d1d23;
+	padding: 100px 0 200px;
+}
+
+.body6-title h2{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 700;
+	font-family: 'Martian Mono', monospace;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.body6-content h5{
+	color: #e58f00;
+	font-size: 22px;
+	font-family: 'Martian Mono', monospace;
+	margin-top: 30px;
+}
+
+.body6-content p{
+	color: #fff;
+	font-size: 12px;
+	font-family: 'Martian Mono', monospace;
+}
+
+.body6-content h6{
+	color: #e58f00;
+	font-size: 17px;
+	font-family: 'Martian Mono', monospace;
+}
+
+
+
+
+
+.body7{
+	background: #e58f00;
+	position: relative;
+	padding: 100px 0;
+}
+
+.body7-img img{
+	position: absolute;
+	top: -100px;
+	width: 50%;
+	
+}
+
+.body7-title h3{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 700;
+	font-family: 'Martian Mono', monospace;
+}
+
+.body7-title p{
+	color: #fff;
+	font-size: 23px;
+	font-weight: 700;
+	font-family: 'Martian Mono', monospace;
+	margin-top: 30px;
+}
+
+
+footer{
+	background: #34343b;
+	padding: 100px 0;
+}
+
+.foot img{
+	margin: auto;
+}
+
+.foot ul{
+	display: flex;
+	list-style: none;
+	justify-content: center;
+}
+
+.info{
+	margin-top: 50px;
+}
+
+.info li{
+	margin: auto;
+}
+
+.foot li a{
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 700;
+	font-family: 'Martian Mono', monospace;
+}
+
+.social{
+	margin-top: 50px;
+}
+
+.social li{
+	margin: 0 20px;
+}
+
+.social li a{
+	background: #fff;
+	height: 40px;
+	width: 40px;
+	color: #000;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+}

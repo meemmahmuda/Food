@@ -1,0 +1,120 @@
+@media(max-width: 1240px){
+
+	.body5{
+		background-size: cover;
+	}
+
+	.body3-content{
+		background-size: cover;
+	}
+
+}
+
+
+@media(max-width: 1199px){
+
+	.body1-txt{
+		margin-top: 200px;
+	}
+
+	.body1-txt h1{
+		font-size: 27px;
+	}
+
+	.body1-txt p{
+		font-size: 12px;
+	}
+
+	.body5-txt{
+		margin-top: 150px;
+	}
+
+	.body5-txt h5{
+		font-size: 25px;
+	}
+
+	.body5-txt p{
+		font-size: 12px;
+	}
+
+}
+
+
+@media(max-width: 991px){
+
+	.menu{
+		display: none;
+	}
+
+	header{
+		
+	}
+
+
+	.mobile-menu ul{
+		list-style: none;
+		text-align: right;
+		padding-right: 60px;
+	}
+
+	.mobile-menu ul li a{
+		text-decoration: none;
+		font-family: 'Martian Mono', monospace;
+		color: #e58f00;
+		font-size: 16px;
+		font-weight: 700;
+		text-transform: uppercase;
+		display: block;
+		padding: 7px 0;
+	}
+
+	.menu-icon{
+		display: block;
+		color: #e58f00;
+		text-align: right;
+		font-size: 30px;
+	}
+
+	.mobile-menu{
+		border-top: 3px solid #e58f00;
+		margin-top: 25px;
+		background: #fff;
+		opacity: 60%;
+	}
+
+	.img1 img{
+		width: 100%;
+	}
+
+	.img2 img{
+		width: 100%;
+	}
+
+	.body6-content img{
+		width: 100%;
+	}
+}
+
+@media(max-width: 767px){
+
+	.body7-title{
+		margin-top: 170px;
+	}
+
+	.info li a{
+		font-size: 12px;
+	}
+}
+
+
+@media(max-width: 575px){
+
+	.foot ul{
+		display: block;
+	}
+
+	.foot ul li a{
+		margin-top: 20px;
+	}
+
+}
